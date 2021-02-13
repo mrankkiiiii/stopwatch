@@ -1,0 +1,63 @@
+body {
+  /* font-family: "Benne", serif; */
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: "Roboto", sans-serif;
+}
+body {
+  margin: 72px 140px 0;
+}
+h1 {
+  font-weight: 800;
+  font-size: 72px;
+}
+#controls {
+  display: inline-block;
+  width: 46%;
+  border-right: 1px solid rgba(0, 0, 0, 0.5);
+  padding-bottom: 42px;
+  padding-right: 42px;
+}
+.input-group {
+  margin: 26px 0;
+}
+label {
+  display: inline-block;
+  width: 24%;
+  font-weight: 200;
+  font-size: 30px;
+  padding: 12px;
+}
+input {
+  width: 60%;
+  font-size: 30px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  padding-left: 6px;
+  font-weight: 200;
+}
+input:disabled {
+  background: white;
+  opacity: 0.6;
+}
+button {
+  padding: 12px 62px;
+  background-color: #222;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+button:hover {
+  opacity: 0.9;
+}
+button:disabled {
+  opacity: 0.3;
+}
+h2 {
+  display: inline-block;
+  vertical-align: top;
+  font-weight: 200;
+  font-size: 144px;
+  margin: 12px 0;
+  padding-left: 100px;
+}
