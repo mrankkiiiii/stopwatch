@@ -62,7 +62,7 @@ function startTimer() {
       timerObject.minutes--;
     }
     updateValue("minutes", timerObject.minutes);
-    updateValue("minutes", timerObject.seconds);
+    updateValue("seconds", timerObject.seconds);
   }, 1000);
 }
 function stopTimer() {
@@ -70,7 +70,8 @@ function stopTimer() {
   buttonManager(["start", true], ["pause", false], ["stop", false]);
   unFreezeInputs();
   updateValue("minutes", $("minutes-input").val());
-  updateValue("seconds", $("seconds-input").val());
+  let seconds = $("#seconds-input").val() || "0";
+  updateValue("seconds", seconds);
 }
 function pauseTimer() {
   clearInterval(timerObject.timerId);
