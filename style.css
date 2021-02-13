@@ -1,10 +1,12 @@
-body {
+body,
+button,
+input {
   /* font-family: "Benne", serif; */
-  /* font-family: "Montserrat", sans-serif; */
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
 }
 body {
-  margin: 72px 140px 0;
+  margin: 80px 200px 0;
 }
 h1 {
   font-weight: 800;
@@ -44,6 +46,8 @@ button {
   padding: 12px 62px;
   background-color: #222;
   color: #fff;
+  font-size: 25px;
+  border-radius: 2px;
   border: none;
   outline: none;
 }
